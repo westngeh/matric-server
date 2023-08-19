@@ -1,16 +1,9 @@
-# Landmark Technology - www.mylandmarktech.com
-# TEL: +1 437 215 2483  - TEL: +1 437 215 2483
-# Kubernetes Metrics Server 
-
+# Kubernetes Metrics Server
 Metrics-server aggregates resource consumption data like CPU and memory usage for Kubernetes nodes, pods and containers. These metrics are collected from the API exposed by the Kubelet on each node.
-
 The metrics server is commonly used by other Kubernetes add ons, such as the Horizontal Pod Autoscaler or the Kubernetes Dashboard. 
-
 It is not deployed by default.
-
 ## Deployment
-In order to deploy metrics-server in your kubernetes master machine clone https://github.com/LandmakTechnology/metric-server.git  and run the commands below:
- 
+In order to deploy metrics-server in your kubernetes master machine clone https://github.com/LandmakTechnology/metric-server.git  and run the commands below: 
 ```console
 # clone manifest repo
 git clone https://github.com/LandmakTechnology/metric-server
